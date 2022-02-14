@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,a,button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 4vh;
+    color: #201F25;
+    text-decoration: none;
+}
+
+.body {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+    background-color: #E2A047;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    color: #F5F0EC;
+}
+
+.footer {
+    background-color: #E2A047;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 2vh;
+    color: #201F25;
+    padding: 1%;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.greeting {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.greeting h1 {
+    color: #E2A047;
+}
+
+.program {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+.program img {
+    width: 60vh;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+}
+.image .img-top {
+    display: none;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.image:hover .img-top {
+    display: inline;
+}
+
+.btn-layout {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+
+.btn {
+    background-color: #E2A047;
+    outline: none;
+    color: #201F25;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30%;
+    padding: 2% 0;
+}
+
+.form-login {
+    padding-top: 5%;
+}
+
+.form-login h1 {
+    text-align: center;
+}
+
+.regist-link {
+    display: block;
+    text-align: center;
+    font-size: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 32vh;
+}
+
+.regist-link a {
+    font-size: 2vh;
+}
+
+.form-regist {
+    padding-top: 5%;
+}
+
+.form-regist h1{
+    text-align: center;
+}
+
+.form-regist-b {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: flex;
+}
+
+.form-regist-b .form-check label{
+    margin:0 10%;
+}
+
+.login-link {
+    display: block;
+    text-align: center;
+    font-size: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 19vh;
+}
+
+.login-link a {
+    font-size: 2vh;
+}
+
+.form-update {
+    padding-top: 5%;
+}
+
+.form-update h1 {
+    text-align: center;
+}
+
+.change {
+    padding-top: 5%;
+    padding-bottom: 29vh;
+}
+
+
+.profile h1 {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.profile h2 {
+    text-align: center;
+}
+
+.profile-body {
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-between;
+    margin: 0 40%;
+    font-weight: 600;
+}
+
+.profile .btn-dir {
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 20%;
+    padding-bottom: 32vh;
+}
+
+
